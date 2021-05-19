@@ -22,7 +22,7 @@
 		</node>
 		
 		<node pkg="visp_camera_calibration" name="visp_camera_calibration_camera" type="visp_camera_calibration_camera">
-		      <param name="images_path" value="$(find visp_camera_calibration)/launch/images/grid36-0%d.pgm" />
+		      <param name="images_path" value="$(find visp_camera_calibration)/launch/images/chess-0%d.png" />
 		</node>
 	</group>
 	
